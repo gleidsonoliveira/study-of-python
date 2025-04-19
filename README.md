@@ -51,3 +51,12 @@ pip install -r requirements.txt
 - **-m venv**: diz ao Python para executar o módulo `venv`, que é usado para criar ambientes virtuais.
 - **venv**: é o nome da pasta onde o ambiente virtual será criado (você pode escolher outro nome, como `.venv`, `env`, etc).
 - **pip**: gerenciador de pacotes do Python, usado para instalar, atualizar e remover pacotes.
+
+## Configuração do VsCode
+{
+    "git.autofetch": true,
+    "window.zoomLevel": 1,
+    "editor.fontSize": 12,
+    "explorer.compactFolders": false,
+    "workbench.iconTheme": "vscode-icons"
+}
