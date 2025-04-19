@@ -52,7 +52,8 @@ pip install -r requirements.txt
 - **venv**: é o nome da pasta onde o ambiente virtual será criado (você pode escolher outro nome, como `.venv`, `env`, etc).
 - **pip**: gerenciador de pacotes do Python, usado para instalar, atualizar e remover pacotes.
 
-## Configuração do VsCode
+## Configuração do VSCode
+```bash
 {
     "git.autofetch": true,
     "window.zoomLevel": 1,
@@ -60,3 +61,4 @@ pip install -r requirements.txt
     "explorer.compactFolders": false,
     "workbench.iconTheme": "vscode-icons"
 }
+```
