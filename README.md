@@ -13,7 +13,7 @@ Get-ExecutionPolicy
 
 ## Alterar a política de execução (se necessário)
 ```powershell
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy AllSigned -Force
 ```
 
 ## Criar um ambiente virtual Python
@@ -21,23 +21,12 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 python -m venv venv
 ```
 
-## Ativar o ambiente virtual
-### Windows (cmd)
-```cmd
-venv\Scripts\activate
-```
-
 ### Windows (PowerShell)
 ```powershell
 .\venv\Scripts\Activate
 ```
 
-### Linux/Mac
-```bash
-source venv/bin/activate
-```
-
-## Desativar o ambiente virtual
+## Desativar o ambiente virtual - se necessário
 ```bash
 deactivate
 ```
