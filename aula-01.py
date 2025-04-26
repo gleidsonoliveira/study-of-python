@@ -1,5 +1,5 @@
 def somar():
-    return 1 + 2;
+    return 1 + 2 + 6;
 
 print(somar())
 
